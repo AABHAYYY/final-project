@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Horton's</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e42727;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-item {
+            margin: 20px;
+            text-align: center;
+        }
+        .product-image {
+            width: 600px;
+            height: 600px;
+            object-fit: cover; /* To maintain aspect ratio */
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tim Horton's</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Locations</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <section>
+        <h2>Our Specialties</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="coffee.jpg" alt="Coffee" class="product-image">
+                <h3>Coffee</h3>
+                <p>Discover our wide range of freshly brewed coffee.</p>
+            </div>
+            <div class="product-item">
+                <img src="donut.jpg" alt="Donuts" class="product-image">
+                <h3>Donuts</h3>
+                <p>Indulge in our delicious selection of donuts.</p>
+            </div>
+            <div class="product-item">
+                <img src="sandwich.jpg" alt="Sandwiches" class="product-image">
+                <h3>Sandwiches</h3>
+                <p>Enjoy our tasty sandwiches made with premium ingredients.</p>
+            </div>
+            <!-- Add more product items as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tim Horton's. All rights reserved.</p>
+    </footer>
+</body>
+</html>
